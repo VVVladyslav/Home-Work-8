@@ -1,0 +1,1176 @@
+2024-01-03 21:31:15.215578+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:31:15.831365+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:34:14.757402+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:34:15.136858+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:35:59.942654+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:35:59.951634+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:36:00.267601+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:37:01.153716+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:37:01.163726+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:37:01.467596+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:37:09.398268+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:37:09.408242+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:37:09.719161+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:37:27.095251+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:37:27.105231+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:37:27.438393+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:37:46.129960+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:37:46.140955+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:37:46.496538+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:38:43.912692+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:38:43.923688+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:38:44.253839+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:39:23.206915+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:39:23.214911+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 21:39:23.562924+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:14)
+	at org.example.DatabaseInitService.<init>(DatabaseInitService.java:9)
+	at org.example.Main.main(Main.java:29)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 15 more
+2024-01-03 21:41:52.397282+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:42:36.947270+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:43:00.473165+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:43:07.064786+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:43:36.471440+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:43:50.794654+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:46:38.766135+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:47:26.391797+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 21:54:17.860082+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; ожидалось "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "SELECT [*]VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE'"; expected "DISTINCT, ALL, *, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+SELECT VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'MODE' [42001-224]
+2024-01-03 22:32:12.411014+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:33:03.759746+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:33:08.426680+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:33:23.906066+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.test(WebApp.java:978)
+	at org.h2.server.web.WebApp.process(WebApp.java:242)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:33:46.948094+02:00 database: wrong user or password; user: ""
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:34:26.261341+02:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:34:57.978962+02:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnectionFromDriver(DriverDataSource.java:258)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnection(DriverDataSource.java:223)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:74)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:142)
+	at org.flywaydb.core.Flyway.repair(Flyway.java:354)
+	at org.example.Main.main(Main.java:20)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:35:17.255177+02:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.WebThread.process(WebThread.java:154)
+	at org.h2.server.web.WebThread.run(WebThread.java:103)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:35:24.606680+02:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnectionFromDriver(DriverDataSource.java:258)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnection(DriverDataSource.java:223)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:74)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:142)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at org.example.Main.main(Main.java:33)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Неверное имя пользователя или пароль
+Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-01-03 22:35:39.697802+02:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    NAME VARCHAR(1000) NOT NULL CHECK (LENGTH(NAME) >= 2 AND LENGTH(NAME) <= 1000),
+    BIRTHDAY DATE CHECK (YEAR(BIRTHDAY) > 1900),
+    LEVEL VARCHAR(20) NOT NULL CHECK (LEVEL IN ('Trainee', 'Junior', 'Middle', 'Senior')),
+    SALARY INT CHECK (SALARY >= 100 AND SALARY <= 100000)
+) [42101-224]
+2024-01-03 22:39:43.153639+02:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    NAME VARCHAR(1000) NOT NULL CHECK (LENGTH(NAME) >= 2 AND LENGTH(NAME) <= 1000),
+    BIRTHDAY DATE CHECK (YEAR(BIRTHDAY) > 1900),
+    LEVEL VARCHAR(20) NOT NULL CHECK (LEVEL IN ('Trainee', 'Junior', 'Middle', 'Senior')),
+    SALARY INT CHECK (SALARY >= 100 AND SALARY <= 100000)
+) [42101-224]
+2024-01-03 23:01:51.061845+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Неверное количество столбцов
+Column count does not match; SQL statement:
+INSERT INTO PUBLIC.CLIENT VALUES (?); [21002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at org.example.ClientService.create(ClientService.java:15)
+	at org.example.Main.main(Main.java:45)
+2024-01-03 23:04:45.636462+02:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.ClientService.create(ClientService.java:13)
+	at org.example.Main.main(Main.java:45)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 15 more
+2024-01-03 23:05:02.403138+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Неверное количество столбцов
+Column count does not match; SQL statement:
+INSERT INTO PUBLIC.CLIENT VALUES (?); [21002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at org.example.ClientService.create(ClientService.java:15)
+	at org.example.Main.main(Main.java:45)
+2024-01-03 23:05:12.084058+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.example.ClientService.getById(ClientService.java:38)
+	at org.example.Main.main(Main.java:46)
+2024-01-03 23:06:30.601909+02:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.ClientService.listAll(ClientService.java:77)
+	at org.example.Main.main(Main.java:49)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 15 more
+2024-01-03 23:06:39.585575+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT * FROM PUBLIC.CLIENT [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.example.ClientService.listAll(ClientService.java:80)
+	at org.example.Main.main(Main.java:49)
+2024-01-03 23:08:04.140131+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatchElement(JdbcPreparedStatement.java:1330)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1276)
+	at org.example.ClientService.getById(ClientService.java:40)
+	at org.example.Main.main(Main.java:46)
+2024-01-03 23:08:04.143125+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcBatchUpdateException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1282)
+	at org.example.ClientService.getById(ClientService.java:40)
+	at org.example.Main.main(Main.java:46)
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatchElement(JdbcPreparedStatement.java:1330)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1276)
+	at org.example.ClientService.getById(ClientService.java:40)
+	at org.example.Main.main(Main.java:46)
+2024-01-04 18:36:12.920136+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Неверное количество столбцов
+Column count does not match; SQL statement:
+INSERT INTO PUBLIC.CLIENT VALUES (?); [21002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at org.example.ClientService.create(ClientService.java:15)
+	at org.example.Main.main(Main.java:46)
+2024-01-04 18:42:21.169346+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO PUBLIC.CLIENT [*]NAME VALUES (?);"; ожидалось "(, OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO PUBLIC.CLIENT [*]NAME VALUES (?);"; expected "(, OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO PUBLIC.CLIENT NAME VALUES (?); [42001-224]
+2024-01-04 18:44:12.368228+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "[*]CLIENT"; ожидалось "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CLIENT"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CLIENT [42001-224]
+2024-01-04 18:44:18.726423+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "[*]CLIENT"; ожидалось "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CLIENT"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CLIENT [42001-224]
+2024-01-04 18:44:19.415098+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "[*]CLIENT"; ожидалось "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CLIENT"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CLIENT [42001-224]
+2024-01-04 18:45:14.908050+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatchElement(JdbcPreparedStatement.java:1330)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1276)
+	at org.example.ClientService.getById(ClientService.java:40)
+	at org.example.Main.main(Main.java:47)
+2024-01-04 18:45:14.911048+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcBatchUpdateException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1282)
+	at org.example.ClientService.getById(ClientService.java:40)
+	at org.example.Main.main(Main.java:47)
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatchElement(JdbcPreparedStatement.java:1330)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1276)
+	at org.example.ClientService.getById(ClientService.java:40)
+	at org.example.Main.main(Main.java:47)
+2024-01-04 18:59:58.869378+02:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.ClientService.getById(ClientService.java:35)
+	at org.example.Main.main(Main.java:47)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 15 more
+2024-01-04 19:00:04.196007+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatchElement(JdbcPreparedStatement.java:1330)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1276)
+	at org.example.ClientService.getById(ClientService.java:42)
+	at org.example.Main.main(Main.java:47)
+2024-01-04 19:00:04.200005+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcBatchUpdateException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1282)
+	at org.example.ClientService.getById(ClientService.java:42)
+	at org.example.Main.main(Main.java:47)
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatchElement(JdbcPreparedStatement.java:1330)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1276)
+	at org.example.ClientService.getById(ClientService.java:42)
+	at org.example.Main.main(Main.java:47)
+2024-01-04 19:00:42.623422+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT name FROM PUBLIC.CLIENT WHERE ID = (?) [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.example.ClientService.getById(ClientService.java:48)
+	at org.example.Main.main(Main.java:47)
+2024-01-04 19:08:26.256178+02:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.ClientService.deleteById(ClientService.java:67)
+	at org.example.Main.main(Main.java:48)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/sergei/IdeaProjects/HM8/test.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 15 more
+2024-01-04 19:09:29.744681+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT * FROM PUBLIC.CLIENT [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.example.ClientService.listAll(ClientService.java:83)
+	at org.example.Main.main(Main.java:50)
+2024-01-04 19:09:50.063562+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод не разрешен для запросов. Используйте execute или executeQuery вместо executeUpdate
+Method is not allowed for a query. Use execute or executeQuery instead of executeUpdate; SQL statement:
+SELECT * FROM PUBLIC.CLIENT [90001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.update(Prepared.java:244)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.example.ClientService.listAll(ClientService.java:91)
+	at org.example.Main.main(Main.java:50)
+2024-01-04 19:26:15.051936+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "1" для параметра "columnIndex"
+Invalid value "1" for parameter "columnIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3524)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at org.example.ClientService.create(ClientService.java:23)
+	at org.example.Main.main(Main.java:23)
+2024-01-04 19:26:20.465902+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "1" для параметра "columnIndex"
+Invalid value "1" for parameter "columnIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3524)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at org.example.ClientService.create(ClientService.java:23)
+	at org.example.Main.main(Main.java:23)
+2024-01-04 19:27:09.252647+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "2" для параметра "columnIndex"
+Invalid value "2" for parameter "columnIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3524)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at org.example.ClientService.create(ClientService.java:23)
+	at org.example.Main.main(Main.java:23)
+2024-01-04 19:32:01.476830+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-224]
