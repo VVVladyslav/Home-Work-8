@@ -5,8 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ClientService {
+    
     public long create(String name){
+        
         long genId = -1;
+        
         try {
             Connection connection = Database.getInstance().getConnection();
             String sqlQuery = "INSERT INTO PUBLIC.CLIENT (NAME) VALUES (?);";
@@ -23,8 +26,8 @@ public class ClientService {
             e.printStackTrace();
         }
         return genId;
-        }//додає нового клієнта з іменем name. Повертає ідентифікатор щойно створеного клієнта.
-    ////////////////////////////////////////////////////////////////////////////////////////////////
+        }
+    
     public String getById(long id){
         String clientName = "";
         try {
@@ -42,8 +45,8 @@ public class ClientService {
             e.printStackTrace();
         }
         return clientName;
-    }//повертає назву клієнта з ідентифікатором id
-    ////////////////////////////////////////////////////////////////////////////////////////////////
+    }
+    
     public void setName(long id, String name){
         try {
             Connection connection = Database.getInstance().getConnection();
@@ -55,8 +58,8 @@ public class ClientService {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    }// встановлює нове ім'я name для клієнта з ідентифікатором id
-    ////////////////////////////////////////////////////////////////////////////////////////////////
+    }
+    
     public void deleteById(long id){
         try {
             Connection connection = Database.getInstance().getConnection();
@@ -67,7 +70,7 @@ public class ClientService {
         }catch (Exception e){
             e.printStackTrace();
         }
-    }//видаляє клієнта з ідентифікатором id
+    }
 
     public List<Client> listAll(){
         List<Client> result = new ArrayList<>();
@@ -89,5 +92,5 @@ public class ClientService {
             e.printStackTrace();
         }
         return result;
-    } //- повертає всіх клієнтів з БД у вигляді колекції об'єктів типу Client (цей клас створи сам, у ньому має бути 2 поля - id та name)
+    }
 }
